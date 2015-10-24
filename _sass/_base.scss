@@ -14,7 +14,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    //font-family: $base-font-family;
+    font-family: 'Lora', 'Times New Roman', serif !important;
+    //color: #404040;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
