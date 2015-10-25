@@ -264,6 +264,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    line-height: 30px;
+    color: rgb(64, 64, 64);
 
     h2 {
         font-size: 32px;
@@ -287,6 +289,9 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    p {
+        font-size: 20px;
     }
 }
 
