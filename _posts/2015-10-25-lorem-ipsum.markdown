@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Lorem ipsum"
+title:  "Lorem Ipsum"
+subtitle: "There exists a Lorem Ipsum site for generating markdown"
 date:   2015-10-25 06:38:00
 categories: blog update
 comments: true

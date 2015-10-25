@@ -1,5 +1,6 @@
 # Site settings
 title: Željko's website
+author: Željko Szep
 email: zeljko.szep@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 
@@ -7,6 +8,19 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zszep.github.io" # the base hostname & protocol for your site
 twitter_username: ZeljkoSzep
 github_username:  zszep
+linkedin_username: željko-szep/8/6b4/339
 
 # Build settings
 markdown: kramdown
+
+links:
+  - title: HOME
+    url: /
+  - title: ARCHIVE
+    url: /archive
+  - title: BIO
+    url: /bio
+  - title: CONTACT
+    url: /contact
+  - title: ABOUT
+    url: /about
