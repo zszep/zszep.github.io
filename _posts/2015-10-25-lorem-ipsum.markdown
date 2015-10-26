@@ -15,8 +15,7 @@ domino](http://www.youtube.com/watch?v=MghiBW3r65M) avem donis in. Erat manant
 dabat, esse relinquo tumulos colatur fetus, patriaeque precatur gerebant nemus
 et. Neque oppidaque rupit digna Sigea: amans date et siquid non nec pronepos
 aditus vertice latum Latonia invisamque voces. Non una clarum fuit; processit
-tubere Gargaphie nomine inter.
-
+tubere Gargaphie nomine inter<!--break-->.
 ## Diu ora a faciesque aures
 
 Corpus ante umbris, ut adacto dedi placuit Tirynthius pondere manus

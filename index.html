@@ -18,6 +18,11 @@ layout: default
         </h3>
         {% endif %}
         <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
+        {{ post.content | split:'<!--break-->' | first }}<span class="read-more">&nbsp;...</span>
+        {% if post.content contains '<!--break-->' %}
+        <br>
+        <a href="{{ post.url }}">read more</a>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
