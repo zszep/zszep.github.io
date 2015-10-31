@@ -1,3 +1,5 @@
+<!-- Capture and store a URL -->
+{% capture location %}{{ page.url | split:'/' }}{% endcapture %}
 <header class="site-header" style="background-image: url('/assets/home-bg.jpg')">
 
     <div class="row top-row">
@@ -24,7 +26,9 @@
 
                 <ul>
                 {% for link in site.links %}
-                    <li>
+                    <!-- Compare the page title to the URL -->
+                    {% assign current = link.title | downcase %}
+                    <li {% if location == current or (current == "home" and location == "") %} class="nav-item-current" {% else %} class="nav__item" {% endif %}>
                         <a href="{{ link.url }}">{{ link.title }}</a>
                     </li>
                 {% endfor %}

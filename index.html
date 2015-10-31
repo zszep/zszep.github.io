@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 ---
 
 <div class="home">
@@ -7,6 +8,9 @@ layout: default
   <!--<h1 class="page-heading">Posts on my site</h1>-->
 
   <ul class="post-list">
+    {% for post in paginator.posts %}
+    <li>{{post.url}}</li>
+    {% endfor %}
     {% for post in site.posts %}
       <li>
         <h2>
@@ -26,7 +30,22 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-  <!--<a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{page.url}}">xxx</a>-->
+
+  <!-- Pagination links -->
+  <!--<div class="pagination">-->
+    <!--{% if paginator.previous_page %}-->
+    <!--<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>-->
+    <!--{% else %}-->
+    <!--<span class="previous">Previous</span>-->
+    <!--{% endif %}-->
+    <!--<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>-->
+    <!--{% if paginator.next_page %}-->
+    <!--<a href="{{ paginator.next_page_path }}" class="next">Next</a>-->
+    <!--{% else %}-->
+    <!--<span class="next ">Next</span>-->
+    <!--{% endif %}-->
+  <!--</div>-->
+
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
  
 </div>
