@@ -105,11 +105,22 @@ a.site-title {
             font-weight: 800;
             letter-spacing: 1px;
 
+            text-align: center;
+            padding-left: 0px !important;
+            margin-left: 10px;
+
             &:hover {
                 //color: red;
                 color: rgba(255, 255, 255, 0.8);
             }
         }
+
+
+    }
+
+    .nav-item-current a {
+        padding-bottom: 0.66667em;
+        border-bottom: 2px solid #e8e9ea;
     }
 
     .page-link {
