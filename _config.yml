@@ -28,3 +28,5 @@ links:
     url: /contact
   - title: ABOUT
     url: /about
+
+theme: jekyll-theme-cayman
